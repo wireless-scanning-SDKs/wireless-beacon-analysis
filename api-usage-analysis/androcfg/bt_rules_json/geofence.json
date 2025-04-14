@@ -1,0 +1,133 @@
+[
+  {
+      "or_predicates": [
+          "Lcom/google/android/gms/location/Geofence/getRequestId",
+          "Lcom/google/android/gms/location/Geofence/getExpirationTime",
+          "Lcom/google/android/gms/location/Geofence/getLatitude",
+          "Lcom/google/android/gms/location/Geofence/getLoiteringDelay",
+          "Lcom/google/android/gms/location/Geofence/getLongitude",
+          "Lcom/google/android/gms/location/Geofence/getNotificationResponsiveness",
+          "Lcom/google/android/gms/location/Geofence/getRadius",
+          "Lcom/google/android/gms/location/Geofence/getTransitionTypes"
+      ],
+      "tags": [
+          "geofencing",
+          "location",
+          "geofence"
+      ],
+      "title": "The application is accessing geofence information.",
+      "description": "This function is used to access information about a geofence, such as its ID, location, and transition types.",
+      "name": "Geofence"
+  },
+  {
+      "or_predicates":[
+          "Lcom/google/android/gms/location/GeofenceStatusCodes/getStatusCodeString"
+      ],
+      "tags": [
+          "geofencing",
+          "location",
+          "geofence"
+      ],
+      "title": "The application is accessing geofence status codes.",
+      "description": "This function is used to access the status code string for a geofence operation.",
+      "name": "GeofenceStatusCodes"
+  },
+  {
+      "or_predicates": [
+          "Lcom/google/android/gms/location/GeofencingRequest/getGeofences",
+          "Lcom/google/android/gms/location/GeofencingRequest/getInitialTrigger",
+          "Lcom/google/android/gms/location/GeofencingRequest/hashCode",
+          "Lcom/google/android/gms/location/GeofencingRequest/writeToParcel"
+      ],
+      "tags": [
+          "geofencing",
+          "location",
+          "geofence"
+      ],
+      "title": "The application is accessing geofencing request information.",
+      "description": "This function is used to access information about a geofencing request, such as the geofences to monitor and the initial trigger.",
+      "name": "GeofencingRequest"
+  },
+  {
+      "or_predicates": [
+          "Lcom/google/android/gms/location/GeofencingClient/addGeofences",
+          "Lcom/google/android/gms/location/GeofencingClient/removeGeofences"
+      ],
+      "tags": [
+          "geofencing",
+          "location",
+          "geofence"
+      ],
+      "title": "The application is adding or removing geofences.",
+      "description": "This function is used to add or remove geofences for monitoring by the geofencing service.",
+      "name": "GeofencingClient"
+  },
+  {
+      "or_predicates": [
+          "Lcom/google/android/gms/location/GeofencingEvent/fromIntent",
+          "Lcom/google/android/gms/location/GeofencingEvent/hasError",
+          "Lcom/google/android/gms/location/GeofencingEvent/getErrorCode",
+          "Lcom/google/android/gms/location/GeofencingEvent/getGeofenceTransition",
+          "Lcom/google/android/gms/location/GeofencingEvent/getTriggeringGeofences",
+          "Lcom/google/android/gms/location/GeofencingEvent/getTriggeringLocation"
+      ],
+      "tags": [
+          "geofencing",
+          "location",
+          "geofence"
+      ],
+      "title": "The application is accessing geofencing event information.",
+      "description": "This function is used to access information about a geofencing event, such as the transition type and triggering geofences.",
+      "name": "GeofencingEvent"
+  },
+  {
+      "or_predicates": [
+          "Lcom/google/android/gms/location/Geofence/Builder/build",
+          "Lcom/google/android/gms/location/Geofence/Builder/setCircularRegion",
+          "Lcom/google/android/gms/location/Geofence/Builder/setExpirationDuration",
+          "Lcom/google/android/gms/location/Geofence/Builder/setLoiteringDelay",
+          "Lcom/google/android/gms/location/Geofence/Builder/setNotificationResponsiveness",
+          "Lcom/google/android/gms/location/Geofence/Builder/setRequestId",
+          "Lcom/google/android/gms/location/Geofence/Builder/setTransitionTypes"
+      ],
+      "tags": [
+          "geofencing",
+          "location",
+          "geofence"
+      ],
+      "title": "The application is building a geofence.",
+      "description": "This function is used to create a geofence object with the specified parameters.",
+      "name": "Geofence.Builder"
+  },
+  {
+      "or_predicates": [
+          "Lcom/google/android/gms/location/GeofencingRequest/Builder/build",
+          "Lcom/google/android/gms/location/GeofencingRequest/Builder/addGeofence",
+          "Lcom/google/android/gms/location/GeofencingRequest/Builder/addGeofences",
+          "Lcom/google/android/gms/location/GeofencingRequest/Builder/setInitialTrigger"
+      ],
+      "tags": [
+          "geofencing",
+          "location",
+          "geofence"
+      ],
+      "title": "The application is building a geofencing request.",
+      "description": "This function is used to create a geofencing request object with the specified parameters.",
+      "name": "GeofencingRequest.Builder"
+  },
+  {
+      "or_predicates": [
+          "Lcom/google/android/gms/location/GeofencingApi/addGeofences",
+          "Lcom/google/android/gms/location/GeofencingApi/removeGeofences"
+      ],
+      "tags": [
+          "geofencing",
+          "location",
+          "geofence"
+      ],
+      "title": "The application is adding or removing geofences using the Geofencing API.",
+      "description": "This function is used to add or remove geofences for monitoring by the geofencing service using the Geofencing API.",
+      "name": "GeofencingApi"
+  }
+]
+

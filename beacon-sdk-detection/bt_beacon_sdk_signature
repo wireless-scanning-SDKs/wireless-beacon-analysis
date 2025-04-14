@@ -1,0 +1,41 @@
+Altbeacon: "org.altbeacon.beacon.|com.altbeacon.beacon.|org.altbeacon.bluetooth."
+Radius Networks: "com.radiusnetworks"
+Estimote: "com.estimote."
+Gimbal: "com.gimbal.android"
+Kontakt: "com.vk.sdk.|com.vk.api.sdk"
+Cuebiq: "com.cuebiq.cuebiqsdk.model.Collector|com.cuebiq.cuebiqsdk.receiver.CoverageReceiver"
+Ad4Screen: "com.ad4screen.sdk"
+Reveal Mobile: "com.stepleaderdigital.reveal"
+SignalFrame: "com.wirelessregistry.observersdk."
+IndoorAtlas: "com.indooratlas.android.sdk",
+Rover SDK: "io.rover"
+Coulus Coelib: "coelib.c.couluslibrary"
+BeaconsInSpace (Fysical): "com.beaconsinspace.android.beacon.detector."
+InMarket: "com.inmarket"
+Sense360: "com.sense360.android"
+Locuslabs:  "com.locuslabs.sdk"
+Roximity: "com.roximity.sdk."
+Bluecats: "com.bluecats.sdk"
+Sensoro: "com.sensoro.beacon.kit.|com.sensoro.cloud"
+Swirl: "com.swirl"
+Placer: "com.placer.client.Placer"
+Unacast Pure: "com.pure.internal.|com.pure.sdk."
+Point Inside: "com.pointinside"
+Woosmap SDK: "com.webgeoservices"
+MOCA: "com.innoquant.moca"
+Proximi.io: "io.proximi.proximiiolibrary"
+pulseid: "com.pulseid.sdk"
+
+#Audio + BLE
+Yinzcam Sobek: "com.yinzcam.sobek"
+Signal360: "com.signal360.sdk.core.|com.sonicnotify.sdk.core.|com.rnsignal360",
+CueAudio: "com.cueaudio.engine|com.cueaudio.live| ccue.
+
+#Geofencing
+Huq Source: "io.huq.sourcekit."
+Radar: "io.radar.sdk.Radar"
+Demdex: "com.adobe.mobile.Analytics|com.adobe.mobile.Config.",
+Areametrics: "com.areametrics.areametricssdk|com.areametrics.nosdkandroid"
+Pilgrim by Foursquare: "com.foursquare.pilgrim|com.foursquare.pilgrimsdk.android"
+Dynamic Yield: "com.dynamicyield."
+Singlespot: "com.sptproximitykit."

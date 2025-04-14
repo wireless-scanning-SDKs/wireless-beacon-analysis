@@ -1,0 +1,11 @@
+{
+    "name": "beacon-finder-gplay-scraper",
+    "version": "1.0.0",
+    "type": "module",
+    "dependencies": {
+        "axios": "^1.6.8",
+        "cheerio": "^1.0.0-rc.12",
+        "franc": "^6.2.0",
+        "google-play-scraper": "github:facundoolano/google-play-scraper"
+    }
+}

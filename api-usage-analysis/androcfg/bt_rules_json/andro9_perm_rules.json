@@ -1,0 +1,182 @@
+[
+    {
+        "or_predicates": [
+            "Landroid/bluetooth/BluetoothAdapter/getAddress",
+            "Landroid/bluetooth/BluetoothAdapter/getBondedDevices",
+            "Landroid/bluetooth/BluetoothAdapter/getProfileConnectionState",
+            "Landroid/bluetooth/BluetoothAdapter/getScanMode",
+            "Landroid/bluetooth/BluetoothAdapter/getState",
+            "Landroid/bluetooth/BluetoothAdapter/isDiscovering",
+            "Landroid/bluetooth/BluetoothAdapter/isEnabled",
+            "Landroid/bluetooth/BluetoothAdapter/listenUsingInsecureL2capChannel",
+            "Landroid/bluetooth/BluetoothAdapter/listenUsingInsecureRfcommWithServiceRecord",
+            "Landroid/bluetooth/BluetoothAdapter/listenUsingL2capChannel",
+            "Landroid/bluetooth/BluetoothAdapter/listenUsingRfcommWithServiceRecord",
+            "Landroid/bluetooth/BluetoothDevice/createInsecureL2capChannel",
+            "Landroid/bluetooth/BluetoothDevice/createInsecureRfcommSocketToServiceRecord",
+            "Landroid/bluetooth/BluetoothDevice/createL2capChannel",
+            "Landroid/bluetooth/BluetoothDevice/createRfcommSocketToServiceRecord",
+            "Landroid/bluetooth/BluetoothDevice/fetchUuidsWithSdp",
+            "Landroid/bluetooth/BluetoothDevice/getAlias",
+            "Landroid/bluetooth/BluetoothDevice/getBluetoothClass",
+            "Landroid/bluetooth/BluetoothDevice/getBondState",
+            "Landroid/bluetooth/BluetoothDevice/getName",
+            "Landroid/bluetooth/BluetoothDevice/getType",
+            "Landroid/bluetooth/BluetoothDevice/getUuids",
+            "Landroid/bluetooth/BluetoothManager/getConnectedDevices",
+            "Landroid/bluetooth/BluetoothManager/getConnectionState",
+            "Landroid/bluetooth/BluetoothManager/getDevicesMatchingConnectionStates",
+            "Landroid/bluetooth/BluetoothProfile/getConnectedDevices",
+            "Landroid/bluetooth/BluetoothProfile/getConnectionState",
+            "Landroid/bluetooth/BluetoothProfile/getDevicesMatchingConnectionStates"
+        ],
+        "tags": [
+            "bluetooth"
+        ],
+        "title": "The application probably uses Bluetooth with basic permissions.",
+        "description": "",
+        "name": "useBluetoothBasic"
+    },
+    {
+        "or_predicates": [
+            "Landroid/bluetooth/BluetoothAdapter/cancelDiscovery",
+            "Landroid/bluetooth/BluetoothAdapter/disable",
+            "Landroid/bluetooth/BluetoothAdapter/enable",
+            "Landroid/bluetooth/BluetoothAdapter/setName",
+            "Landroid/bluetooth/BluetoothAdapter/startDiscovery",
+            "Landroid/bluetooth/BluetoothAdapter/startLeScan",
+            "Landroid/bluetooth/BluetoothAdapter/stopLeScan",
+            "Landroid/bluetooth/BluetoothDevice/createBond",
+            "Landroid/bluetooth/le/BluetoothLeScanner/startScan",
+            "Landroid/bluetooth/le/BluetoothLeScanner/stopScan"
+        ],
+        "tags": [
+            "bluetooth"
+        ],
+        "title": "The application probably uses Bluetooth with admin permissions.",
+        "description": "",
+        "name": "useBluetoothAdmin"
+    },
+    {
+        "or_predicates": [
+            "Landroid/bluetooth/BluetoothDevice/setPairingConfirmation"
+        ],
+        "tags": [
+            "bluetooth"
+        ],
+        "title": "The application probably uses Bluetooth with privileged permissions.",
+        "description": "",
+        "name": "useBluetoothPrivileged"
+    },
+    {
+        "or_predicates": [
+            "Landroid/location/LocationManager/addGpsStatusListener",
+            "Landroid/location/LocationManager/addNmeaListener",
+            "Landroid/location/LocationManager/addProximityAlert",
+            "Landroid/location/LocationManager/getGpsStatus",
+            "Landroid/location/LocationManager/getLastKnownLocation",
+            "Landroid/location/LocationManager/registerAntennaInfoListener",
+            "Landroid/location/LocationManager/registerGnssMeasurementsCallback",
+            "Landroid/location/LocationManager/registerGnssNavigationMessageCallback",
+            "Landroid/location/LocationManager/registerGnssStatusCallback",
+            "Landroid/location/LocationManager/removeProximityAlert",
+            "Landroid/location/LocationManager/removeUpdates",
+            "Landroid/location/LocationManager/requestLocationUpdates",
+            "Landroid/location/LocationManager/requestSingleUpdate",
+            "Landroid/net/wifi/p2p/WifiP2pManager/addLocalService",
+            "Landroid/net/wifi/p2p/WifiP2pManager/connect",
+            "Landroid/net/wifi/p2p/WifiP2pManager/createGroup",
+            "Landroid/net/wifi/p2p/WifiP2pManager/discoverPeers",
+            "Landroid/net/wifi/p2p/WifiP2pManager/discoverServices",
+            "Landroid/net/wifi/p2p/WifiP2pManager/requestDeviceInfo",
+            "Landroid/net/wifi/p2p/WifiP2pManager/requestGroupInfo",
+            "Landroid/net/wifi/p2p/WifiP2pManager/requestPeers",
+            "Landroid/telephony/TelephonyManager/getAllCellInfo",
+            "Landroid/telephony/TelephonyManager/getCellLocation",
+            "Landroid/telephony/TelephonyManager/requestCellInfoUpdate"
+        ],
+        "tags": [
+            "location"
+        ],
+        "title": "The application probably uses fine location.",
+        "description": "",
+        "name": "useFineLocation"
+    },
+    {
+        "or_predicates": [
+            "Landroid/location/LocationManager/addProximityAlert",
+            "Landroid/location/LocationManager/getLastKnownLocation",
+            "Landroid/location/LocationManager/removeProximityAlert",
+            "Landroid/location/LocationManager/removeUpdates",
+            "Landroid/location/LocationManager/requestLocationUpdates",
+            "Landroid/location/LocationManager/requestSingleUpdate"
+        ],
+        "tags": [
+            "location"
+        ],
+        "title": "The application probably uses coarse location.",
+        "description": "",
+        "name": "useCoarseLocation"
+    },
+    {
+        "or_predicates": [
+            "Landroid/media/MediaRecorder/start",
+            "Landroid/media/MediaRecorder/stop",
+            "Landroid/media/MediaRecorder/setAudioSource",
+            "Landroid/media/AudioRecord/startRecording",
+            "Landroid/media/MediaRecorder/setOutputFile",
+            "Landroid/media/AudioRecord/read",
+            "Landroid/media/AudioRecord/stop"
+        ],
+        "tags": [
+            "audio_recording",
+            "microphone"
+        ],
+        "title": "The application may be recording audio.",
+        "description": "This rule identifies methods related to audio recording, which could indicate the app's capability to capture audio potentially for beacon detection.",
+        "name": "Record audio"
+    },
+    {
+        "or_predicates": [
+            "Landroid/net/wifi/WifiManager/getConfiguredNetworks",
+            "Landroid/net/wifi/WifiManager/getConnectionInfo",
+            "Landroid/net/wifi/WifiManager/getDhcpInfo",
+            "Landroid/net/wifi/WifiManager/getScanResults",
+            "Landroid/net/wifi/WifiManager/getWifiState",
+            "Landroid/net/wifi/WifiManager/is5GHzBandSupported",
+            "Landroid/net/wifi/WifiManager/isDeviceToApRttSupported",
+            "Landroid/net/wifi/WifiManager/isEnhancedPowerReportingSupported",
+            "Landroid/net/wifi/WifiManager/isP2pSupported",
+            "Landroid/net/wifi/WifiManager/isPreferredNetworkOffloadSupported",
+            "Landroid/net/wifi/WifiManager/isScanAlwaysAvailable",
+            "Landroid/net/wifi/WifiManager/isTdlsSupported"
+        ],
+        "tags": [
+            "wifi"
+        ],
+        "title": "access wifi state",
+        "description": "",
+        "name": "accesswifistate"
+    },
+    {
+        "or_predicates": [
+            "Landroid/net/wifi/WifiManager/addNetwork",
+            "Landroid/net/wifi/WifiManager/disableNetwork",
+            "Landroid/net/wifi/WifiManager/disconnect",
+            "Landroid/net/wifi/WifiManager/enableNetwork",
+            "Landroid/net/wifi/WifiManager/reassociate",
+            "Landroid/net/wifi/WifiManager/reconnect",
+            "Landroid/net/wifi/WifiManager/removeNetwork",
+            "Landroid/net/wifi/WifiManager/saveConfiguration",
+            "Landroid/net/wifi/WifiManager/setWifiEnabled",
+            "Landroid/net/wifi/WifiManager/startScan",
+            "Landroid/net/wifi/WifiManager/updateNetwork"
+        ],
+        "tags": [
+            "wifi"
+        ],
+        "title": "change wifi state",
+        "description": "",
+        "name": "changewifistate"
+    }
+]

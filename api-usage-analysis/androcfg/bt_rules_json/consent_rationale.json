@@ -1,0 +1,59 @@
+[
+    {
+        "or_predicates": [
+            "Landroid/app/Activity/shouldShowRequestPermissionRationale",
+            "Landroid/support/v4/app/ActivityCompat/shouldShowRequestPermissionRationale",
+            "Landroidx/core/app/ActivityCompat/shouldShowRequestPermissionRationale"
+        ],
+        "tags": [
+            "permission_request",
+            "user_consent",
+            "permissions",
+            "user_experience"
+        ],
+        "title": "The application checks if it should show a rationale for requesting a permission.",
+        "description": "This function is used to determine whether to show an explanation to the user for why a permission is needed, which can improve the user experience and transparency.",
+        "name": "shouldShowRequestPermissionRationale"
+    },
+    {
+        "or_predicates": [
+            "Landroid/app/Activity/requestPermissions",
+            "Landroidx/core/app/ActivityCompat/requestPermissions",
+            "Landroidx/fragment/app/Fragment/requestPermissions"
+        ],
+        "tags": [
+            "permission_request",
+            "dangerous_permissions"
+        ],
+        "title": "The application is requesting dangerous permissions.",
+        "description": "This function is used to request dangerous permissions from the user.",
+        "name": "requestPermissions"
+    },
+    {
+        "or_predicates": [
+            "Landroid/content/Context/checkSelfPermission",
+            "Landroid/app/Activity/checkSelfPermission"
+        ],
+        "tags": [
+            "permission_check",
+            "dangerous_permissions"
+        ],
+        "title": "The application is checking the status of a permission.",
+        "description": "This function is used to check if a dangerous permission has already been granted.",
+        "name": "checkSelfPermission"
+    },
+    {
+        "or_predicates": [
+            "Landroid/app/Activity/onRequestPermissionsResult",
+            "Landroidx/core/app/ActivityCompat/onRequestPermissionsResult",
+            "Landroidx/fragment/app/Fragment/onRequestPermissionsResult"
+        ],
+        "tags": [
+            "permission_result",
+            "dangerous_permissions"
+        ],
+        "title": "The application is handling the result of a permission request.",
+        "description": "This function is used to handle the user's response to a dangerous permission request.",
+        "name": "onRequestPermissionsResult"
+    }
+]
