@@ -57,6 +57,22 @@ Licensed under the  [GNU GPLv3](LICENSE) license.
 
 ---
 
+## Reference
+
+If you use this repo, please cite the following paper:
+
+```
+@article{girish2025signal,
+  title         = {Your Signal, Their Data: An Empirical Privacy Analysis of Wireless-scanning SDKs in Android},
+  author        = {Aniketh Girish and Joel Reardon and Juan Tapiador and Srdjan Matic and Narseo Vallina-Rodriguez},
+  journal       = {Proceedings on Privacy Enhancing Technologies},
+  year          = {2025},
+  doi           = {10.56553/popets-2025-0103}
+}
+
+```
+
+
 ## 💰 Funding Support
 
 Part of this research was supported by the Spanish National Cybersecurity Institute (INCIBE) under <i>Proyectos Estratégicos de Ciberseguridad -- CIBERSEGURIDAD EINA UNIZAR</i> and by the Recovery, Transformation and Resilience Plan funds, financed by the European Union (Next Generation).
