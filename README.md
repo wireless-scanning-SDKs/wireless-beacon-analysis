@@ -24,7 +24,7 @@ Below is an overview of key folders and their purpose. Folders marked with 📄 
 
 ### 🔹 [`api-usage-analysis/`](api-usage-analysis/README.md)
 
-Contains code based on [AndroCFG]([https://github.com/U039b/AndroCFG](https://github.com/U039b/AndroCFG) for generating and analyzing call graphs from decompiled Android apps. Includes:
+Contains code based on [AndroCFG]([https://github.com/U039b/AndroCFG](https://github.com/U039b/AndroCFG)) for generating and analyzing call graphs from decompiled Android apps. Includes:
 - `androcfg/`: Modified call graph extractor and rule-based behavior detection
 - `bt_rules_json/`: Beacon and geofence-related rule definitions
 
